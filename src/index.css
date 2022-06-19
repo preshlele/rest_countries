@@ -96,4 +96,21 @@
     background-color: var(--light-mode-background);
     color: black;
   }
-    
+
+  filter .form-control input ::placeholder{
+    color: white;
+  }
+  .filter .form-control input.light-theme ::placeholder{
+    color: black;
+  }
+  
+  
+  .filter .region-filter .select{
+    background-color: var(--dark-mode-input);
+    color: white;
+    font-family: inherit;
+    padding: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+  }
