@@ -133,4 +133,8 @@
         width: 100%;
     }
 
+    article{
+        width: 100%;
+        background-color: none;
+    }
 }
