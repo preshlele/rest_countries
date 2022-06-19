@@ -44,3 +44,10 @@
     height: 500px;
     /* background-color: yellow; */
 }
+
+.flag img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
