@@ -6,5 +6,5 @@ import '../country.css';
 
 const Country = () => {
     const [ country, setCountry] = useState([])
-
+    const { name, border} = useParams()
 }
