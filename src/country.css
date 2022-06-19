@@ -70,3 +70,8 @@
 .native{
     float: left;
 }
+
+.top{
+    float: right;
+    padding-top: 50px;
+}
