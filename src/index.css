@@ -61,3 +61,30 @@
 .placeHolder::placeholder{
   color:#FFFFFF;
 }
+
+/* filter  */
+.filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+  }
+  
+  
+  .filter .form-control{
+    width: 100%;
+  }
+  
+  .filter .form-control input{
+    background-color: var(--dark-mode-input);
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: var(--text-color);
+    margin: 0 0 30px;
+    font-family: inherit;
+  }  
