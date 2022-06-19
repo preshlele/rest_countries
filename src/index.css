@@ -87,4 +87,13 @@
     color: var(--text-color);
     margin: 0 0 30px;
     font-family: inherit;
-  }  
+  }
+  input#search.light-theme{
+    background-color: var(--light-mode-background);
+    color: black;
+  }
+  select#select.light-theme{
+    background-color: var(--light-mode-background);
+    color: black;
+  }
+    
