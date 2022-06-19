@@ -91,7 +91,6 @@ const Countries = () => {
                 <h4>Population: <span>{population}</span> </h4>
                 <h4>Region: <span>{region}</span></h4>
                 <h4>Capital: <span>{capital}</span></h4>
-                {/* <Link to={`/countries/${name}`}></Link> */}
             </div>
           
         </div>
@@ -109,7 +108,8 @@ const Countries = () => {
     } else {
         countryName = name;
     }
-//   return 
+
+
   return <Link to={{pathname:`/${name}`, state: {name: name}}} target="_blank">
    <article key={name}>
 
@@ -137,7 +137,7 @@ const Countries = () => {
 
 
 
-// Search for a Country
+
 
 // $("#search").blur(function () {
 //     let searchParam = $("#search").val();
