@@ -89,3 +89,8 @@
     color: var(--text-color);
 
 }
+
+.country article .country-details div h2{
+    font-size: 30px;
+    letter-spacing: 1px;    
+}
