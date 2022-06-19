@@ -229,4 +229,10 @@
      .borders{
         width: 100%;
     }
+
+    .native{
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
 }
