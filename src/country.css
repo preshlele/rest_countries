@@ -115,3 +115,14 @@
 .borders h3 {
     margin-top: 11px;
 }
+
+.country article .borders ul{
+    margin: 10px;
+    background-color: var(--light-mode-input);
+    /* background-color: 2B3844; */
+    padding: 3px 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px hsl(200, 15%, 8%, 0.5);
+    list-style: none;
+
+}
