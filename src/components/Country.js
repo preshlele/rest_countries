@@ -5,5 +5,6 @@ import Countries from './Countries'
 import '../country.css';
 
 const Country = () => {
-    
+    const [ country, setCountry] = useState([])
+
 }
