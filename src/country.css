@@ -162,6 +162,10 @@
         width: 100%;
         padding-left: 0px;
         margin-top: 0px;
-        /* background-color: brown; */
+
     }
+
+    .country-details{
+        width: 100%;
+     }
 }
