@@ -194,5 +194,7 @@
 }
 
 @media screen and (min-width:500px) {
-    
+    .country{
+        width: 100%;
+    }
 }
