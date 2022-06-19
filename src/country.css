@@ -19,3 +19,8 @@
     width: 100%;
   
 }
+
+.btn .btn-light{
+    margin-bottom: 30px;
+    display: inline-block;
+}
