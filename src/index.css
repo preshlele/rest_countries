@@ -149,3 +149,14 @@
     margin-top: -10px;
     border-radius: 0 0 5px 5px;
   }
+
+  .grid.details.light-theme{
+    background-color: var(--light-mode-background);
+  }
+  
+  .grid .details h4{
+    padding-bottom: 5px;
+  }
+  .grid .details h4 span{
+    font-weight: 300;
+  }
