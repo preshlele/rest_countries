@@ -37,3 +37,10 @@
     padding-right: 20px;
     cursor: pointer;
 }
+
+.flag{
+    float: left;
+    width: 50%;
+    height: 500px;
+    /* background-color: yellow; */
+}
