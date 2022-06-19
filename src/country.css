@@ -94,3 +94,10 @@
     font-size: 30px;
     letter-spacing: 1px;    
 }
+
+.country article .country-details div h5{
+
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0;
+}
