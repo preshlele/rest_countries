@@ -142,7 +142,7 @@ const Countries = () => {
 //     let searchParam = $("#search").val();
 //     console.log(searchParam);
 //     $("#grid").html("");
-    // $('#default').html("");
+    $('#default').html("");
 
     // $.ajax({
     //     url: `https://restcountries.com/v2/name/${searchParam}?fields=flags,name,population,region,capital`,
