@@ -7,4 +7,9 @@ import '../country.css';
 const Country = () => {
     const [ country, setCountry] = useState([])
     const { name, border} = useParams()
+    console.log(`this is the border` + border, name);
+    useEffect(()=>{
+    
+    }, [name])
+
 }
