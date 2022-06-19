@@ -9,7 +9,16 @@ const Country = () => {
     const { name, border} = useParams()
     console.log(`this is the border` + border, name);
     useEffect(()=>{
-    
+        const fetchCountryData = async () =>{
+            
+            const response = await fetch(
+                // 'https://restcountries.com/v2/name/argentina'
+                `https://restcountries.com/v2/name/${name}`
+            )
+            const country = await response.json()
+            setCountry(country) 
+
+        }
     }, [name])
 
 }
