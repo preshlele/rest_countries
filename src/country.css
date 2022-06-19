@@ -105,4 +105,9 @@
 .country article  h3{
     font-weight: 600;
     
- }
+}
+
+ .country article .borders{
+    display: flex;
+    flex-wrap: wrap;
+}
