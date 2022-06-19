@@ -137,4 +137,8 @@
         width: 100%;
         background-color: none;
     }
+    
+    button.back{
+        margin-left: 3px;
+        
 }
