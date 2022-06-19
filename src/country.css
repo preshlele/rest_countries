@@ -197,4 +197,12 @@
     .country{
         width: 100%;
     }
+
+    .flag {
+        width: 50%;
+
+        float: left;
+        padding: 0px;
+
+    }
 }
