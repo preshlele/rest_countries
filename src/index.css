@@ -166,4 +166,22 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
+  @media screen and (min-width: 768px) {
+    .filter{
+      flex-direction: row;
+    }
+    .filter .form-control{
+      width: auto;
+    }
+    .filter .form-control input{
+      width: auto;
+      margin: 0;
+    }
+    .grid{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .filter .region-filter{
+      width: auto;
+    }
+  }
   
