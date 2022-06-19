@@ -83,3 +83,9 @@
 .country-details h5{
     margin-bottom: 20px;
 }
+
+.country article .country-details div{
+    margin: 30px 0 ;
+    color: var(--text-color);
+
+}
