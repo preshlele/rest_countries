@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import $ from "jquery"
 import Filter from './Filter'
 
 
@@ -44,19 +43,19 @@ const Countries = () => {
         }
 
 
-    $(document).ready(function () {
-        fetchCountries()
-    })
+    // $(document).ready(function () {
+    //     fetchCountries()
+    // })
 
-    $("#search").blur(function () {
-        let searchVal = $("#search").val();
-        searhCountry(searchVal)
-    });
+    // $("#search").blur(function () {
+    //     let searchVal = $("#search").val();
+    //     searhCountry(searchVal)
+    // });
 
-    $("#select").change(function () {
-        let region = $("#select").val();
-        regionFilter(region);
-    })
+    // $("#select").change(function () {
+    //     let region = $("#select").val();
+    //     regionFilter(region);
+    // })
 
         // fetchCountries()
         
