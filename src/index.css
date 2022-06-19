@@ -22,3 +22,17 @@
   img{
     max-width: 100%;
   }
+
+  .navbar{
+    background-color: var(--dark-mode-input);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    padding: 10px 20px;
+  }
+  .navbar.light-theme{
+    background-color: var(--light-mode-background);
+    color: var(--light-mode-text);
+  }
