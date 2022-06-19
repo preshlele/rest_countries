@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,800;1,300&display=swap");
+
+:root {
+    --dark-bg-color: hsl(207, 26%, 17%);
+    --dark-mode-input: hsl(209, 23%, 22%);
+    --text-color: hsl(0, 0%, 100%);
+    --light-mode-text: hsl(200, 15%, 8%);
+    /* --light-mode-input: hsl(0, 0%, 52%); */
+    /* --light-mode-input: hsl(200, 15%, 8%); */
+    --light-mode-input: #2B3844;
+  
+    
+  
+    --light-mode-background: hsl(0, 0%, 98%);
+    /* --light-mode-input */
+  }
