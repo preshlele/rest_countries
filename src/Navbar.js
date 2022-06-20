@@ -67,7 +67,8 @@ $(document).ready(function () {
     // console.log($('#mode').html());
     let modeContent =$('#mode').html();
         if(modeContent === 'Light Mode'){
-
+            $('#mode').html('Dark Mode');
+            $("body").css("background-color","#F2F2F2");
             }
         else{
 
