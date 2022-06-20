@@ -1,2 +1,69 @@
 import React from 'react'
 import $ from 'jquery'
+
+
+$(document).ready(function () {
+    let modeContent = $('#mode').html();
+    console.log(modeContent);
+      // if(modeContent === 'Light Mode'){
+      //   $('#mode').html('Dark Mode');
+      //   $("body").css("background-color","#F2F2F2");
+      //   $("header").css("background-color","#FFFFFF");
+      //   $("header").css("color","#2B3844");
+      //   $("article").css("background-color","#FFFFFF");
+      //   $(".details").css("background-color","#FFFFFF");
+      //   $(".details").css("color","#2B3844");
+      //   $(".back").css("color","#2B3844");
+      //   $(".back").css("background-color","#FFFFFF");
+      //   $(".detailAndBorder").css("color","#2B3844");
+      //   $(".native").css("color","#2B3844");
+      //   $(".top").css("color","#2B3844");
+      //   $("ul").css("color","#2B3844");
+      //   $("ul").css("background-color","#FFFFFF");
+  
+  
+  
+  
+  
+  
+        
+  
+        
+  
+      //   $("#search").css("background-color","#FFFFFF");
+      //   $(".select").css("background-color","#FFFFFF");
+      //   $(".select").css("color","#2B3844");
+      //   $("#search").removeClass('placeHolder');
+  
+        // $("body").css("color","#111517");
+      
+      
+      // } else {
+      //   $('#mode').html('Light Mode');
+      //   $("body").css("background-color","#202C36");
+      //   $("header").css("background-color","#2B3844");
+      //   $("header").css("color","#FFFFFF");
+      //   $("article").css("background-color","#2B3844");
+      //   $(".details").css("background-color","#2B3844");
+      //   $(".details").css("color","#FFFFFF");
+  
+      //   $("#search").css("background-color","#2B3844");
+      //   $(".select").css("background-color","#2B3844");
+      //   $(".select").css("color","#FFFFFF");
+      //   $("#search").addClass('placeHolder');
+      //   $(".back").css("color","#FFFFFF");
+      //   $(".back").css("background-color","#2B3844");
+      //   $(".detailAndBorder").css("color","#FFFFFF");
+      //   $(".native").css("color","#FFFFFF");
+      //   $(".top").css("color","#FFFFFF");
+      //   $("ul").css("color","#FFFFFF");
+      //   $("ul").css("background-color","#2B3844");
+  
+  
+  
+      //   // $("body").css("color","#FFFFFF");
+  
+      
+      // }
+  });
+  
