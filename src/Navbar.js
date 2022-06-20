@@ -71,6 +71,8 @@ $(document).ready(function () {
             $("body").css("background-color","#F2F2F2");
             $("header").css("background-color","#FFFFFF");
             $("header").css("color","#2B3844");
+            $("article").css("background-color","#FFFFFF");
+
             }
         else{
 
