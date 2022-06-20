@@ -102,6 +102,8 @@ $(document).ready(function () {
             $(".back").css("background-color","#2B3844");
             $(".detailAndBorder").css("color","#FFFFFF");
             $(".native").css("color","#FFFFFF");
+            $(".top").css("color","#FFFFFF");
+
             }
 
     }
