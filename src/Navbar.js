@@ -83,6 +83,8 @@ $(document).ready(function () {
             $("ul").css("background-color","#FFFFFF");
             $("#search").css("background-color","#FFFFFF");
             $("#search").removeClass('placeHolder');
+            $(".select").css("background-color","#FFFFFF");
+            $(".select").css("color","#2B3844");
             }
         else{
 
