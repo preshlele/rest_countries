@@ -87,7 +87,8 @@ $(document).ready(function () {
             $(".select").css("color","#2B3844");
             }
         else{
-
+            $('#mode').html('Light Mode');
+            $("body").css("background-color","#202C36");
             }
 
     }
