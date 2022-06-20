@@ -43,6 +43,23 @@ $(document).ready(function () {
     //     }
     // });
 
+    const Navbar = ()=>{
+    return (
+        <>
+        <header className="navbar">
+            <div className='logo'>
+             <h1>Where in the world ?</h1>
+           </div>
+     
+         <div id="modeDivide" className="modeDiv" onClick={()=> changeTheme()}>
+         <ion-icon className ="moon-logo" name="moon-outline"></ion-icon><span id="mode">Light Mode</span>
+         </div>
+         </header>
+        
+         
+        </>
+       )
+     }
 
 
     export default Navbar
