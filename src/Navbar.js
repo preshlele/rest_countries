@@ -44,6 +44,31 @@ $(document).ready(function () {
     // });
 
     const Navbar = ()=>{
+
+        const changeTheme = ()=>{
+            // const darkmode = document.querySelector('.navbar')
+    // const grid = document.querySelector('.countriespage')
+    // const inputFilter = document.querySelector('input#search')
+    // const searchFilter = document.querySelector('select#select')
+    // const gridcountries = document.querySelectorAll('.grid.details')
+
+    // darkmode.addEventListener('click', () =>{
+      // darkmode.classList.toggle('light-theme')
+      // grid.classList.toggle('light-theme')
+      // inputFilter.classList.toggle('light-theme')
+      // searchFilter.classList.toggle('light-theme')
+      // gridcountries.classList.toggle('light-theme')
+      // gridcountries.style.background = '#FFFFFF'
+
+
+      
+    // })
+
+    // console.log($('#mode').html());
+    let modeContent =$('#mode').html();
+
+        }
+
     return (
         <>
         <header className="navbar">
