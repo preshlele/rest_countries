@@ -66,8 +66,14 @@ $(document).ready(function () {
 
     // console.log($('#mode').html());
     let modeContent =$('#mode').html();
+        if(modeContent === 'Light Mode'){
 
-        }
+            }
+        else{
+
+            }
+
+    }
 
     return (
         <>
