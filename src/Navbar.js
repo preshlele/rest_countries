@@ -93,6 +93,8 @@ $(document).ready(function () {
             $("header").css("color","#FFFFFF");
             $("article").css("background-color","#2B3844");
             $(".details").css("background-color","#2B3844");
+            $(".details").css("color","#FFFFFF");
+
             }
 
     }
