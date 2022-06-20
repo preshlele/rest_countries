@@ -29,6 +29,12 @@ const Country = () => {
            setCountry([country]) 
 
        }
+
+       if(name !== undefined && name.length > 3){
+        fetchCountryData();
+    }else{
+        fetchBorderData();
+    }
     }, [name])
 
 }
