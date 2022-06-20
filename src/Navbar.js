@@ -103,6 +103,10 @@ $(document).ready(function () {
             $(".detailAndBorder").css("color","#FFFFFF");
             $(".native").css("color","#FFFFFF");
             $(".top").css("color","#FFFFFF");
+            $("ul").css("color","#FFFFFF");
+            $("ul").css("background-color","#2B3844");
+
+
 
             }
 
