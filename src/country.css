@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,800;1,300&display=swap");
+
+:root {
+    --dark-bg-color: hsl(207, 26%, 17%);
+    --dark-mode-input: hsl(209, 23%, 22%);
+    --text-color: hsl(0, 0%, 100%);
+    --light-mode-text: hsl(200, 15%, 8%);
+    /* --light-mode-input: hsl(0, 0%, 52%); */
+    /* --light-mode-input: hsl(200, 15%, 8%); */
+    --light-mode-input: #2B3844;
+
+    --light-mode-background: hsl(0, 0%, 98%);
+    /* --light-mode-input */
+  }
+
+.country{
+    padding: 50px;
+    color: var(--text-color);
+    width: 100%;
+
+}
+
+.btn .btn-light{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.back{
+    margin-left: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2B3844;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+
+.flag{
+    float: left;
+    width: 50%;
+    height: 500px;
+
+}
+
+.flag img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.detailAndBorder{
+    float: right;
+    width: 50%;
+    height: 500px;
+    padding-left: 50px;
+    
+}
+
+.country-details{
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.native{
+    float: left;
+}
+
+.top{
+    float: right;
+    padding-top: 50px;
+}
+
+.country-details h2{
+    margin-bottom: 30px;
+}
+
+.country-details h5{
+    margin-bottom: 20px;
+}
+
+.country article .country-details div{
+    margin: 30px 0 ;
+    color: var(--text-color);
+
+}
+
+.country article .country-details div h2{
+    font-size: 30px;
+    letter-spacing: 1px;    
+}
+
+.country article .country-details div h5{
+
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.country article  h3{
+    font-weight: 600;
+    
+}
+
+ .country article .borders{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.borders h3 {
+    margin-top: 11px;
+}
+
+.country article .borders ul{
+    margin: 10px;
+    background-color: var(--light-mode-input);
+    /* background-color: 2B3844; */
+    padding: 3px 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px hsl(200, 15%, 8%, 0.5);
+    list-style: none;
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .country{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+        background-color: none;
+    }
+
+    button.back{
+        margin-left: 3px;
+    }
+
+    .flag {
+        width: 100%;
+        height: 150px;
+        float: none;
+        padding: 0px;
+
+    }
+
+    .flag img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+
+    }
+
+    .detailAndBorder{
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .country-details{
+        width: 100%;
+     }
+
+     .borders{
+        width: 100%;
+    }
+
+    .native{
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+
+    .top{
+        width: 100%;
+        float: none;
+        padding-top: 0px;
+
+    }
+
+    .borders h3 {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:500px) {
+    .country{
+        width: 100%;
+    }
+
+    .flag {
+        width: 50%;
+
+        float: left;
+        padding: 0px;
+
+    }
+
+    .flag img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .detailAndBorder{
+        float: right;
+        width: 50%;
+        padding-left: 60px;
+        margin-top: 0px;
+    }
+
+    .country-details{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+     }
+
+     .borders{
+        width: 100%;
+    }
+
+    .native{
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .top{
+        width: 100%;
+        float: none;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .country{
+     max-width: 1100px;
+     margin: auto;
+    }
+ }
+ @media (min-width: 1366px) {
+     .country {
+       max-width: 1200px;
+     }
+   }
+   
+   @media (min-width: 1440px) {
+     .country {
+       max-width: 1400px;
+     }
+ }
