@@ -1,6 +1,8 @@
 import React, {useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import $ from "jquery"
 import Filter from './Filter'
+
 
 
 // API CALL AND FETCHING
@@ -43,19 +45,19 @@ const Countries = () => {
         }
 
 
-    // $(document).ready(function () {
-    //     fetchCountries()
-    // })
+    $(document).ready(function () {
+        fetchCountries()
+    })
 
-    // $("#search").blur(function () {
-    //     let searchVal = $("#search").val();
-    //     searhCountry(searchVal)
-    // });
+    $("#search").blur(function () {
+        let searchVal = $("#search").val();
+        searhCountry(searchVal)
+    });
 
-    // $("#select").change(function () {
-    //     let region = $("#select").val();
-    //     regionFilter(region);
-    // })
+    $("#select").change(function () {
+        let region = $("#select").val();
+        regionFilter(region);
+    })
 
         // fetchCountries()
         
@@ -90,6 +92,7 @@ const Countries = () => {
                 <h4>Population: <span>{population}</span> </h4>
                 <h4>Region: <span>{region}</span></h4>
                 <h4>Capital: <span>{capital}</span></h4>
+                {/* <Link to={`/countries/${name}`}></Link> */}
             </div>
           
         </div>
@@ -107,8 +110,7 @@ const Countries = () => {
     } else {
         countryName = name;
     }
-
-
+//   return 
   return <Link to={{pathname:`/${name}`, state: {name: name}}} target="_blank">
    <article key={name}>
 
@@ -136,7 +138,7 @@ const Countries = () => {
 
 
 
-
+// Search for a Country
 
 // $("#search").blur(function () {
 //     let searchParam = $("#search").val();
