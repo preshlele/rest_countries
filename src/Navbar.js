@@ -42,3 +42,7 @@ $(document).ready(function () {
         
     //     }
     // });
+
+
+
+    export default Navbar
