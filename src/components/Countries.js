@@ -83,7 +83,7 @@ const Countries = () => {
 {countries.filter(e => searchVariable ==='' || e.name.toLowerCase().includes(searchVariable.toLowerCase())).map((country)=>{
     const {code, name, population, region, capital, flags} = country
     if(name === "Germany" || name === "United States of America" || name === "Brazil" || name === "Iceland"){
-        return <Link to={{pathname:`/${name}`, state: {name: name}}} target="_blank">
+        return <Link to={{pathname:`/${name}`, state: {name: name}}} >
         <article className='article' key={name}>
         <div>
             <img src={flags.png} alt={name} />
@@ -111,7 +111,7 @@ const Countries = () => {
         countryName = name;
     }
 //   return 
-  return <Link to={{pathname:`/${name}`, state: {name: name}}} target="_blank">
+  return <Link to={{pathname:`/${name}`, state: {name: name}}} >
    <article key={name}>
 
     <div>
