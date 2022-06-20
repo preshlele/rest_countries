@@ -19,6 +19,16 @@ const Country = () => {
             setCountry(country) 
 
         }
+
+        const fetchBorderData = async () =>{
+            const response = await fetch(
+               // 'https://restcountries.com/v2/name/argentina'
+               `https://restcountries.com/v2/alpha/${name}`
+           )
+           const country = await response.json()
+           setCountry([country]) 
+
+       }
     }, [name])
 
 }
