@@ -5,27 +5,7 @@ import $ from 'jquery'
 $(document).ready(function () {
     let modeContent = $('#mode').html();
     console.log(modeContent);
-      // if(modeContent === 'Light Mode'){
-      //   $('#mode').html('Dark Mode');
-      //   $("body").css("background-color","#F2F2F2");
-      //   $("header").css("background-color","#FFFFFF");
-      //   $("header").css("color","#2B3844");
-      //   $("article").css("background-color","#FFFFFF");
-      //   $(".details").css("background-color","#FFFFFF");
-      //   $(".details").css("color","#2B3844");
-      //   $(".back").css("color","#2B3844");
-      //   $(".back").css("background-color","#FFFFFF");
-      //   $(".detailAndBorder").css("color","#2B3844");
-      //   $(".native").css("color","#2B3844");
-      //   $(".top").css("color","#2B3844");
-      //   $("ul").css("color","#2B3844");
-      //   $("ul").css("background-color","#FFFFFF");
-  
-  
-  
-  
-  
-  
+      
         
   
         
