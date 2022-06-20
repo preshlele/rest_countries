@@ -39,7 +39,8 @@ const Country = () => {
     return (
         <>
               <section className="country">
-                  
+              <Link to="/"><button className='back'><ion-icon className="btn btn-light"
+      name="arrow-back-outline"></ion-icon>  Back</button></Link>
               </section>
         </>
   )
