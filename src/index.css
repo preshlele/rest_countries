@@ -184,4 +184,14 @@
       width: auto;
     }
   }
+  @media screen and (min-width: 992px) {
+    .header, .filter, .grid {
+      padding: 20px 100px;
+    }
+    .grid{
+      grid-template-columns: repeat(4, 1fr);
+      gap: 60px;
+    }
+  }
+  
   
