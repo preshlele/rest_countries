@@ -76,6 +76,11 @@ $(document).ready(function () {
             $(".details").css("color","#2B3844");
             $(".back").css("color","#2B3844");
             $(".back").css("background-color","#FFFFFF");
+            $(".detailAndBorder").css("color","#2B3844");
+            $(".native").css("color","#2B3844");
+            $(".top").css("color","#2B3844");
+            $("ul").css("color","#2B3844");
+            $("ul").css("background-color","#FFFFFF");
             }
         else{
 
