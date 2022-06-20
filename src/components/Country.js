@@ -36,5 +36,12 @@ const Country = () => {
         fetchBorderData();
     }
     }, [name])
+    return (
+        <>
+              <section className="country">
+                  
+              </section>
+        </>
+  )
 
 }
