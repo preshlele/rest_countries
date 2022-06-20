@@ -96,6 +96,8 @@ $(document).ready(function () {
             $(".details").css("color","#FFFFFF");
             $(".select").css("background-color","#2B3844");
             $(".select").css("color","#FFFFFF");
+            $("#search").css("background-color","#2B3844");
+
             }
 
     }
