@@ -98,7 +98,10 @@ $(document).ready(function () {
             $(".select").css("color","#FFFFFF");
             $("#search").css("background-color","#2B3844");
             $("#search").addClass('placeHolder');
-
+            $(".back").css("color","#FFFFFF");
+            $(".back").css("background-color","#2B3844");
+            $(".detailAndBorder").css("color","#FFFFFF");
+            $(".native").css("color","#FFFFFF");
             }
 
     }
