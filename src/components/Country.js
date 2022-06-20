@@ -41,6 +41,13 @@ const Country = () => {
               <section className="country">
               <Link to="/"><button className='back'><ion-icon className="btn btn-light"
       name="arrow-back-outline"></ion-icon>  Back</button></Link>
+                {
+                    country.map((c) =>{
+                        const { code, flag, name, nativeName, population, region,
+                            subregion, capital, topLevelDomain, currencies
+                            , languages, borders} = c
+                    })
+                }
               </section>
         </>
   )
