@@ -89,6 +89,8 @@ $(document).ready(function () {
         else{
             $('#mode').html('Light Mode');
             $("body").css("background-color","#202C36");
+            $("header").css("background-color","#2B3844");
+            $("header").css("color","#FFFFFF")
             }
 
     }
