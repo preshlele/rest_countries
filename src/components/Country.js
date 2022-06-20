@@ -46,6 +46,67 @@ const Country = () => {
                         const { code, flag, name, nativeName, population, region,
                             subregion, capital, topLevelDomain, currencies
                             , languages, borders} = c
+                        
+                        let bord = [name];
+                        if(borders !== undefined){
+                            console.log('this is borers'+ borders)
+          
+                            bord = borders; 
+                              
+          
+                          }
+                          return(
+                            <article key={code}>
+        
+                                {/* <div className="country-inner"> */}
+                                    <div className="flag">
+                                        <img src={flag} alt="name" />
+                                    </div>
+                                    <div className='detailAndBorder'>
+                                        <div className="country-details">
+                                            {/* <div className="country-details"> */}
+                                            <div className="native">
+                                                <h2>{name}</h2>   
+        
+                                                <h5>Native Name: <span>{nativeName}</span></h5>
+                                                <h5>Population: <span>{population}</span></h5>
+                                                <h5>Region: <span>{region}</span></h5>
+                                                <h5>Sub region: <span>{subregion}</span></h5>
+                                                <h5>Capital: <span>{capital}</span></h5>
+                                            </div>
+                                            
+                                            <div className="top">
+                                                <h5>Top Level Domain: <span>{topLevelDomain}</span></h5>
+                                                <h5>currencies: <span>{currencies[0].name}</span></h5>
+                                                <h5>Languages: <span>{languages[0].name}</span></h5>
+                                            </div>
+                                            
+                                            
+        
+                                            {/* </div> */}
+                                        </div>
+                                        <div className='borders'>
+                                            <h3>border: </h3>
+                                            {/* <div className="borders"> */}
+                                             
+                                                {bord.map((border)=> {
+                                                    return(
+                                                        <Link to={{pathname:`/${border}`, state: {border: border}}}>
+                                                            <ul key={border}>
+                                                                <li>{border}</li>
+                                                                <Link to={`/${border}`}></Link>
+                                                            </ul>
+                                                        </Link>
+                                                    )
+                                                })}
+                                        
+                                                
+                                            {/* </div> */}
+                                        </div>
+                                    </div>
+                                {/* </div> */}
+                            </article>
+                        )
                     })
                 }
               </section>
